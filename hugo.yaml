@@ -1,0 +1,52 @@
+baseURL: https://trackingdemo.data-noz.digital/
+languageCode: de-de
+title: TrackingDemo
+theme: PaperMod
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: TrackingDemo
+  description: "TrackingDemo"
+  # keywords: [Blog, Portfolio, PaperMod]
+  author: NOZ Digital GmbH
+  # author: ["Me", "You"] # multiple authors
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: ""
+    favicon16x16: "noz_digital_logo.jpeg"
+    favicon32x32: ""
+    apple_touch_icon: ""
+    safari_pinned_tab: ""
+
+  label:
+    text: "Home"
+
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: TrackingDemo
+    # subtitle: "TrackingDemo"
+    imageUrl: "images/noz_digital_logo.jpeg"
+    imageWidth: 210
+    imageHeight: 210
+    imageTitle: noz_digital_logo
+    buttons:
+      - name: Subscribe
+        url: subscribe
+      - name: Unsubscribe
+        url: unsubscribe
+
+  socialIcons:
+    - name: website
+      url: "https://noz-mhn.de/ueber-uns/unternehmen/noz-digital/"
+    - name: github
+      url: "https://github.com/NOZ-Digital-GmbH"
+    - name: linkedin
+      url: "https://www.linkedin.com/company/noz-digital/mycompany/"
+    - name: cv
+      url: "https://noz.onlyfy.jobs/"
