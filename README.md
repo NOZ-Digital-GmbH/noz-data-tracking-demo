@@ -1,4 +1,4 @@
-# Tracking Demo: Hugo Site with PaperMod Theme and Umami Analytics
+# TrackingDemo: Hugo Site with PaperMod Theme and Umami Analytics
 
 This repository contains the source code for a [Hugo](https://gohugo.io) static site using the [PaperMod](https://themes.gohugo.io/themes/hugo-papermod/) theme. The site is tracked with [Umami Analytics](https://umami.is/) and is deployed via [Cloudflare Pages](https://developers.cloudflare.com/pages/).
 
@@ -24,17 +24,20 @@ This tutorial will show you how to create a new site from scratch using all the 
 ### Installation
 
 1. **Clone the Repository**
+   
 ```bash
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
 ```
 
 2. **Create the Hugo Site**
+   
 ```bash
 hugo new site site-name --format yaml
 ```
 
 3. **Install PaperMod Theme**
+   
 Add PaperMod as a submodule:
 ```bash
 git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
@@ -46,6 +49,7 @@ theme: PaperMod
 ```
 
 4. **Configure Umami Analytics**
+   
 Add your Umami tracking code using PaperMod’s custom Head/Footer functionality:
 Create a layouts/partials/head.html file in your project and add the tracking script:
 ```html
@@ -56,6 +60,7 @@ For more information, refer to the [PaperMod’s custom Head/Footer](https://adi
 
 
 5. **Run the Development Server**
+   
 ```bash
 hugo server
 ```
