@@ -53,7 +53,7 @@ theme: PaperMod
 Add your Umami tracking code using PaperMod’s custom Head/Footer functionality:
 Create a layouts/partials/head.html file in your project and add the tracking script:
 ```html
-<script async defer data-website-id="YOUR_UMAMI_WEBSITE_ID" src="https://your-umami-instance.com/umami.js"></script>
+<script async data-website-id="YOUR_UMAMI_WEBSITE_ID" data-host-url="YOUR_UMAMI_HOST_URL" src="https://your-website.de/script.js"></script>
 ```
 
 For more information, refer to the [PaperMod’s custom Head/Footer](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/#custom-head--footer) documentation.
